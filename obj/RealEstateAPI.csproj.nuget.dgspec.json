@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kerjaan\\2025\\RealEstateAPI\\RealEstateAPI.csproj": {}
+    "D:\\Pribadi\\project\\RealEstateAPI\\RealEstateAPI.csproj": {}
   },
   "projects": {
-    "E:\\Kerjaan\\2025\\RealEstateAPI\\RealEstateAPI.csproj": {
+    "D:\\Pribadi\\project\\RealEstateAPI\\RealEstateAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kerjaan\\2025\\RealEstateAPI\\RealEstateAPI.csproj",
+        "projectUniqueName": "D:\\Pribadi\\project\\RealEstateAPI\\RealEstateAPI.csproj",
         "projectName": "RealEstateAPI",
-        "projectPath": "E:\\Kerjaan\\2025\\RealEstateAPI\\RealEstateAPI.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Kerjaan\\2025\\RealEstateAPI\\obj\\",
+        "projectPath": "D:\\Pribadi\\project\\RealEstateAPI\\RealEstateAPI.csproj",
+        "packagesPath": "C:\\Users\\SS\\.nuget\\packages\\",
+        "outputPath": "D:\\Pribadi\\project\\RealEstateAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/connectid-tools/index.json": {}
         },
         "frameworks": {
           "net8.0": {

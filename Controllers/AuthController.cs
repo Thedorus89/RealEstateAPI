@@ -42,7 +42,7 @@ namespace RealEstateAPI.Controllers
 
         private string GenerateJwtToken(string username)
         {
-            var key = Encoding.UTF8.GetBytes("YourSuperSecretKey");
+            var key = Encoding.UTF8.GetBytes("a1B2c3D4e5F6g7H8i9J0kLmNOpQRsTuV");
             var claims = new List<Claim> { new(ClaimTypes.Name, username) };
             var credentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256);
             var token = new JwtSecurityToken(claims: claims, expires: DateTime.UtcNow.AddHours(3), signingCredentials: credentials);

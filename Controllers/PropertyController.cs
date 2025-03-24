@@ -4,6 +4,7 @@ using RealEstateAPI.Models;
 
 namespace RealEstateAPI.Controllers
 {
+    [Authorize] // 🔒 Protects all actions in this controller
     [Route("api/[controller]")]
     [ApiController]
     public class PropertyController : ControllerBase
@@ -24,7 +25,6 @@ namespace RealEstateAPI.Controllers
             return property != null ? Ok(property) : NotFound("Property not found");
         }
 
-        [Authorize]
         [HttpPost]
         public IActionResult AddProperty(Property property)
         {
@@ -33,7 +33,6 @@ namespace RealEstateAPI.Controllers
             return CreatedAtAction(nameof(GetProperty), new { id = property.Id }, property);
         }
 
-        [Authorize]
         [HttpPut("{id}")]
         public IActionResult UpdateProperty(int id, Property updatedProperty)
         {
@@ -47,7 +46,6 @@ namespace RealEstateAPI.Controllers
             return Ok(property);
         }
 
-        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult DeleteProperty(int id)
         {
